@@ -7,4 +7,8 @@ class UserInputValidator:
         for item in input_list:
             if item.isdigit() and int(item) > 0:
                 valid_integers.append(int(item))
-            return valid_integers
+        return valid_integers
+        
+    def display_validation_message(self):
+        # This displays a message when list is validated.
+        print("Validation completed successfully")
