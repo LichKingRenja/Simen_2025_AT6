@@ -1,0 +1,5 @@
+Class: UserInputValidator
+
+Description:
+The UserInputValidator class is designed to validate lists of user-submitted strings and determining whether any of them are valid positive integers.
+It provides both methods to validate and to display confirmation message upon process completion.
